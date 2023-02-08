@@ -11,7 +11,7 @@ public class BstApplication {
 	public static void main(String[] args) {
 
 		Arvore<Integer> bst = new BST<>();
-		bst.inserir(10).inserir(12).inserir(15).inserir(8).inserir(4).inserir(20);
+		bst.inserir(10).inserir(4).inserir(8).inserir(12).inserir(16).inserir(18);
 		bst.percorrer();
 
 		System.out.println("Maior nó: " + bst.noMax());
